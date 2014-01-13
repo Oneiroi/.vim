@@ -5,8 +5,11 @@ call pathogen#infect()
 syntax on
 set number
 syntax on
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
+"indent-guides
+let g:indent_guides_start_level=2
+let g:indent_guides_guide_level=1
 set expandtab
 set mouse=a
 filetype on
